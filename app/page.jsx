@@ -20,7 +20,7 @@ export default function Project() {
         <nav>
           <ul>
             <li className="img">
-              <img src="small pic.jpg" />
+              <img src="small_pic.jpg" alt="something" />
             </li>
 
             <li className="home2">
@@ -155,7 +155,7 @@ export default function Project() {
             </div>
             <div className="r-reputation">
               <p>
-                <span>Lionel Messi.</span> Eight times Ballon d'or Winner.
+                <span>Lionel Messi.</span> Eight times Ballon dor Winner.
               </p>
               <p>Benzix Kevin saved us from a web disaster.</p>
             </div>
@@ -214,16 +214,32 @@ export default function Project() {
             <i className="fa fa-envelope"></i>
             <span>Email: Kevinbelusochigmail.com</span>
           </p>
-          <p className="message">Let's get in touch. Send me a message:</p>
+          <p className="message">Lets get in touch. Send me a message:</p>
           <form action="">
-          <input placeholder="Name" title="Please fill out this field."  required/>
-          <input placeholder="Email" title="Please fill out this field." required/>
-          <input placeholder="Subject" title="Please fill out this field." required/>
-          <input placeholder="Message" title="Please fill out this field." required/>
-          <button className="telegram">
-            <i className="fa fa-telegram"></i>
-            <span>SEND MESSAGE</span>
-          </button>
+            <input
+              placeholder="Name"
+              title="Please fill out this field."
+              required
+            />
+            <input
+              placeholder="Email"
+              title="Please fill out this field."
+              required
+            />
+            <input
+              placeholder="Subject"
+              title="Please fill out this field."
+              required
+            />
+            <input
+              placeholder="Message"
+              title="Please fill out this field."
+              required
+            />
+            <button className="telegram">
+              <i className="fa fa-telegram"></i>
+              <span>SEND MESSAGE</span>
+            </button>
           </form>
           <div className="end">
             <i className="fa fa-facebook"></i>
@@ -241,4 +257,4 @@ export default function Project() {
       </div>
     </main>
   );
-};
+}
