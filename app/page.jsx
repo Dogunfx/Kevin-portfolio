@@ -55,7 +55,7 @@ export default function Project() {
         <div className="home" id="home">
           <h1>I am Kevin Benzix.</h1>
           <p>Programmer and Web Designer.</p>
-          <img src="small pic.jpg" />
+          <img src="small_pic.jpg" />
         </div>
         <div className="about" id="about">
           <h2>My Name</h2>
